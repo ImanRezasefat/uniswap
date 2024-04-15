@@ -30,7 +30,6 @@ const Header = () => {
   const [selectedNav, setSelectedNav] = useState("swap");
   const [userName, setUserName] = useState<string>();
   const { connectWallet, wallet } = useContext(WalletContext);
-  console.log("wallet ", wallet);
 
   return (
     <div className={style.wrapper}>
